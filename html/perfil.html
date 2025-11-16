@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título actualizado -->
+    <title>Sobre mí | PixelPulse</title>
+    
+    <!-- ANOTACIÓN: Cambia "favicon.ico" por un ícono de temática gamer -->
+    <link rel="icon" href="../assets/img/favicon-gamer.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    
+    <!-- Fuentes del CSS (Oxanium para títulos, Lexend Deca para texto) -->
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+
+<body class="profile-page">
+    <header>
+        <nav>
+            <section class="nav-logo-container">
+                <!-- ANOTACIÓN: Aquí va tu logo PNG. Reemplaza la ruta -->
+                <a href="index.html"><img src="../assets/img/logo-gamer.png" alt="Logo de PixelPulse"></a>
+            </section>
+
+            <section class="profile-link">
+                <!-- El enlace a "Sobre mí" ahora está activo (visualmente) -->
+                <a href="perfil.html" class="active">Sobre mí</a>
+            </section>
+        </nav>
+    </header>
+
+    <main class="perfil">
+        <section class="perfil-header" data-aos="fade-up">
+            <img src="../assets/img/PERFIL.jpg" alt="Foto de Perfil" class="perfil-foto">
+            
+            <h1 class="perfil-nombre">Chatelain "Shigumi" Agustin</h1>
+            
+            <p class="perfil-bio">"Estudiante de Sistemas y creador de PixelPulse. Cuando no estoy programando o estudiando, estoy jugando. Este blog es mi espacio para hablar en serio sobre videojuegos y esports."</p>
+        </section>
+
+        <section class="perfil-social" data-aos="fade-up" data-aos-delay="100">
+            <h2>Conectemos</h2>
+            <div class="social-links">
+                <a href="https://github.com" target="_blank" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://x.com" target="_blank" aria-label="X">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="https://twitch.tv" target="_blank" aria-label="Twitch">
+                    <i class="fa-brands fa-twitch"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://youtube.com" target="_blank" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer actualizado para ser idéntico al de index.html y news.html -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">© Blog Personal - Chatelain Agustin.</p>
+            
+            <div class="footer-icons">
+                <a href="https://github.com" target="_blank" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i></a>
+                <a href="https://x.com" target="_blank" aria-label="X">
+                    <i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://twitch.tv" target="_blank" aria-label="Twitch">
+                    <i class="fa-brands fa-twitch"></i></a>
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i></a>
+                <a href="https://youtube.com" target="_blank" aria-label="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
+            offset: 100 
+        });
+    </script>
+</body>
+
+</html>
