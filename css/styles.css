@@ -67,7 +67,7 @@ nav a:hover::after {
 
 /* --- ANOTACIÓN DE IMAGEN: LOGO PRINCIPAL DEL BLOG --- */
 nav .nav-logo-container img {
-  height: 50px;
+  height: 75px;
   width: auto;
   object-fit: contain;
   transition: transform 0.2s ease;
@@ -238,9 +238,20 @@ body.home {
   backdrop-filter: none;
 }
 
-body.profile-page,
+/* Fondo para la página de Noticias */
 body.news-page {
   background: linear-gradient(180deg, #1a1a2e 0%, #111318 100%);
+  background-attachment: fixed;
+}
+
+/* Fondo para la página de Perfil */
+body.profile-page {
+  background-color: #111318;
+
+  /* Ejemplo si quieres una IMAGEN de fondo: */
+  background-image: url("../assets/img/FONDO-PERFIL.jpg");
+  background-size: cover;
+  background-position: center;
   background-attachment: fixed;
 }
 
